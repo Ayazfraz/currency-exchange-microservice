@@ -28,5 +28,13 @@ public class CurrencyExchangeController {
 		return exchangeValue;
 
 	}
+	
+	@GetMapping("currency")
+	public String currency() {
+		
+		return "Currency Exchange";
+
+	}
+
 
 }
